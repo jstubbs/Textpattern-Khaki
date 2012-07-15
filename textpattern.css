@@ -1,0 +1,351 @@
+@import url("../classic/textpattern.css");
+
+/* Khaki Admin theme styles */
+
+body, input, textarea, select {
+font: 12px "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+color: #444;
+}
+
+#header {
+margin: 0px 0px 0px 0px;
+height: 50px;
+line-height: 50px;
+background-color: #444;
+display: block;
+}
+
+#branding {
+float: left;
+display: block;
+color: #fff;
+font-size: 2em;
+text-transform: uppercase;
+margin: 0 0 0 48px;
+}
+
+#masthead {
+background-color: #d2cfaf;
+white-space: nowrap;
+clear: both;
+}
+
+#navpop {
+float: right;
+padding: 10px 10px 0 0;
+margin-bottom: 0;
+}
+
+#view_modes {
+display: none;
+}
+
+div#end_page {
+display: none;
+}
+
+h1, h2, h3 {
+font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+
+h1.pagetitle {
+background-color: #fff;
+z-index: 99;
+display: block;
+padding-top: 20px;
+text-indent: 25px;
+margin: 0;
+font-size: 19px;
+}
+
+h2 {
+font-size: 1.6em;
+margin-bottom: 20px;
+}
+
+h3 {
+font-size: 1.2em;
+}
+
+h3.plain {
+font: 1em "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+margin-top: 0;
+font-weight: 300;
+}
+
+a:link, a:visited, a:active {
+color: #333;
+}
+
+a.navlink {
+padding: 6px;
+color: #444;
+background-color: #eee;
+border: 1px solid #ccc;
+}
+
+a.navlink-active {
+border: 0 none;
+padding: 6px; 
+margin-right: 10px;
+}
+
+a.pophelp {
+font-weight: normal;
+color: #444;
+background-color: transparent;
+border: 1px solid #eee;
+border-radius: 6px;
+}
+
+#txplogo a {
+margin: 8px 8px 0 0;
+float: right;
+background: #ccc;
+}
+
+#txplogo a:hover {
+background: #aaa;
+}
+
+h3.plain.lever a { 
+color: #666;
+font-size: 12px;
+text-transform: uppercase; 
+letter-spacing: 1px;
+}
+
+#nav {
+overflow: auto;
+padding: 0 0 0 38px;
+}
+
+#nav, #nav ul {
+list-style: none;
+}
+
+#nav a {
+display: block;
+height: 2.5em;
+line-height: 2.5em;
+color: #444;
+text-transform: uppercase;
+padding: 0 10px;
+}
+
+* html #nav .sfhover a {
+display: block;
+width: 10em;
+}
+
+#nav a:hover {
+text-decoration: none;
+}
+
+#nav li {
+float: left;
+margin: 0 -1px 0 -1px;
+line-height: 2.5em;
+font-size: 12px;
+height: 2.5em;
+}
+
+#nav li.primary.tabup.active {
+font-weight: bold;
+}
+
+#nav li.active li {
+font-weight: normal;
+}
+
+#nav li li.active {
+font-weight: bold;
+}
+
+#nav li#view-site {
+float: right;
+margin-right: 20px;
+}
+
+#nav li ul {
+padding: 0 0 0.5em 0;
+position: absolute;
+width: 160px;
+left: -999em;
+background-color: #d2cfaf;
+border-width: 0 1px 1px 1px;
+border-style: solid;
+border-color: #FFF #e1e1e1 #e1e1e1 #e1e1e1;
+margin: 0 -1px;
+}
+
+#nav li:hover, #nav li.sfhover {
+position: static;
+border-right: 1px solid #d2cfaf;
+border-left: 1px solid #d2cfaf;
+margin: 0 -2px;
+}
+
+#nav li#view-site:hover {
+margin: 0 20px 0 0;
+border: 0 none;
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+left: auto;
+}
+
+#nav li ul li {
+height: 2em;
+width: 140px;
+padding: 0;
+}
+
+#nav li ul li:hover, #nav li ul li.sfhover {
+border: none;
+margin: 0 -1px;
+}
+
+#nav li ul li a {
+padding: 0 10px;
+width: 140px;
+margin: 0;
+}
+
+#nav li ul li a:hover {
+border-left: 1px solid #444;
+padding-left: 9px;
+text-decoration: underline;
+}
+
+input, textarea {
+border-radius: 3px;
+border: 1px solid #ccc !important;
+}
+
+legend {
+letter-spacing: 2px;	
+text-transform: uppercase;
+font-size: 12px;
+font-weight: normal;
+}
+
+ul.textile li, ul.recent li, #tagbuild_links li, p.textile.small {
+font-size: 12px;
+margin-bottom: 5px;
+margin-left: 10px;
+color: #666;
+}
+
+table#list th, table#list td {
+padding: 5px;
+border-bottom: 1px solid #ccc;
+}
+
+table#list td {
+padding: 10px;
+}
+
+input.smallerbox {
+padding: 6px;
+background: #ccc;
+color: #444;
+text-transform: uppercase;
+border-radius: 3px;
+}
+
+input#title {
+width: 500px;
+line-height: 1.6em;
+padding: 3px;
+}
+
+input.edit {
+padding: 4px;
+}
+
+input.edit.year, input.edit.month, input.edit.day, input.edit.hour, input.edit.minute, input.edit.second, input.edit.exp_year, input.edit.exp_month, input.edit.exp_day, input.edit.exp_hour, input.edit.exp_minute, input.edit.exp_second {
+padding: 2px;
+}
+
+p.action-create a {
+border: 1px solid #ccc;
+font-size: 12px;
+padding: 10px;
+background: #2b9800;
+color: #fff;
+text-transform: uppercase;
+border-radius: 3px;
+}
+
+p.action-create a:hover {
+background: #007d00;
+}
+
+input.publish {
+padding: 10px;
+font-size: 12px;
+color: #fff;
+background: #f00;
+border-radius: 3px;
+text-transform: uppercase;
+border: 1px solid #f00;
+}
+
+input.publish:hover {
+color: #fff;
+background: #9E1313;
+border: 1px solid #9E1313;
+}
+
+#messagepane {
+background: #fff;
+height: 2em;
+line-height: 2em;
+text-align: center;
+margin: 1em 0;
+}
+
+#message {
+padding: 5px;
+background: #f00;
+color: #fff;
+font-size: 12px;
+width: 400px;
+}
+
+span#message strong,
+span#message strong a {
+font-weight: bold;
+font-size: 14px;
+}
+
+#article-col-1 h3,
+#tagbuild_links h3,
+#content_switcher h3,
+#article-col-2 h3,
+.lever {
+padding-left: 0;
+}
+
+.lever {
+background: none;
+}
+
+code, .code {
+font: 1em Consolas, Monaco, "Courier New", monospace;
+}
+
+.lever a {
+padding-right: 14px;
+text-decoration: none;
+}
+
+.lever a:hover, .lever.expanded a {
+background: transparent url(../../txp_img/expandcollapse.gif) no-repeat right 5px;
+}
+
+.lever a.pophelp, .lever a.pophelp:hover {
+background: transparent;
+padding: 0 2px;
+}
