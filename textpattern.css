@@ -82,6 +82,7 @@ padding: 6px;
 color: #444;
 background-color: #eee;
 border: 1px solid #ccc;
+border-radius: 3px;
 }
 
 a.navlink-active {
@@ -268,6 +269,10 @@ input.edit.year, input.edit.month, input.edit.day, input.edit.hour, input.edit.m
 padding: 2px;
 }
 
+p.action-create {
+margin-bottom: 2em;
+}
+
 p.action-create a {
 border: 1px solid #ccc;
 font-size: 12px;
@@ -280,6 +285,7 @@ border-radius: 3px;
 
 p.action-create a:hover {
 background: #007d00;
+text-decoration: none;
 }
 
 input.publish {
