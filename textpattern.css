@@ -276,7 +276,7 @@ margin-bottom: 2em;
 p.action-create a {
 border: 1px solid #ccc;
 font-size: 12px;
-padding: 10px;
+padding: 8px;
 background: #2b9800;
 color: #fff;
 text-transform: uppercase;
@@ -289,7 +289,7 @@ text-decoration: none;
 }
 
 input.publish {
-padding: 10px;
+padding: 8px;
 font-size: 12px;
 color: #fff;
 background: #f00;
@@ -313,7 +313,7 @@ margin: 1em 0;
 }
 
 #message {
-padding: 10px;
+padding: 8px;
 background: #f00;
 color: #fff;
 font-size: 12px;
