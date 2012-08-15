@@ -109,7 +109,7 @@ background: #ccc;
 background: #aaa;
 }
 
-h3.plain.lever a { 
+h3.plain.lever a, h3.plain a { 
 color: #666;
 font-size: 12px;
 text-transform: uppercase; 
@@ -317,6 +317,7 @@ padding: 8px;
 background: #f00;
 color: #fff;
 font-size: 12px;
+text-transform: uppercase;
 width: 400px;
 }
 
